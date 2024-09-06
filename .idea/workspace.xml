@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c772bff-d159-4f32-8936-a5240b20cb42" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/routers/calcularconsumo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routers/consumo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemas/comodo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemas/consumo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/consumo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/comodo.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/comodo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/dispositivo.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/dispositivo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/residencia.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/residencia.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/comodos.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/residencia.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/comodos.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_main.http" beforeDir="false" afterPath="$PROJECT_DIR$/test_main.http" afterDir="false" />
-    </list>
+    <list default="true" id="6c772bff-d159-4f32-8936-a5240b20cb42" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +85,7 @@
       <workItem from="1725465559305" duration="4893000" />
       <workItem from="1725619499204" duration="2052000" />
       <workItem from="1725621819687" duration="121000" />
-      <workItem from="1725621966409" duration="4851000" />
+      <workItem from="1725621966409" duration="5420000" />
     </task>
     <servers />
   </component>
