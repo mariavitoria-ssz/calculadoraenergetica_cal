@@ -1,6 +1,8 @@
 from peewee import AutoField, CharField, DoubleField, ForeignKeyField, Model
 from config.database import database
+from models.comodo import Comodo
 from models.dependencia import DependenciaDB
+from models.residencia import Residencia
 from models.tipos_dspositivo import TipoDispositivoDB
 from models.unidade_consumidora import UnidadeConsumidoraDB
 
@@ -28,3 +30,15 @@ class DispositivoDB(Model):
     class Meta:
         database = database
         table_name = 'dispositivos'
+
+
+class DispositivoEletrico(Model):
+    id = AutoField()
+    nome = CharField()
+    consumo = DoubleField()
+    uso_diario = DoubleField()
+    comodo = ForeignKeyField(Comodo, backref='dispositivos')
+    residencia = ForeignKeyField(Residencia, backref='dispositivos')
+
+    class Meta:
+        database = database

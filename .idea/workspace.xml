@@ -5,39 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c772bff-d159-4f32-8936-a5240b20cb42" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/CalculadoraConsumoEletrico.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/bandeira.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/comodo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/dependencia.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/dispositivo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/residencia.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/tipos_consumidor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/tipos_dspositivo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/unidade_consumidora.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routers/bandeira.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routers/comodos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routers/dependencia.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routers/dispositivos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routers/residencia.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routers/tipos_consumidor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routers/tipos_dispositivos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routers/unidade_consumidora.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemas/bandeira.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemas/comodos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemas/dependencia.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemas/dispositivos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemas/residencia.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemas/tipo_dispositivo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemas/tipos_consumidor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemas/unidade_consumidora.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_main.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/calcularconsumo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/consumo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schemas/comodo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schemas/consumo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/consumo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/comodo.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/comodo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dispositivo.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/dispositivo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/residencia.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/residencia.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/comodos.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/residencia.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/comodos.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_main.http" beforeDir="false" afterPath="$PROJECT_DIR$/test_main.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,22 +44,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "FastAPI.FastAPI.executor": "Run",
-    "Python.comodos.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/46290154850/Documents/CalculadoraConsumoEletrico/main.py",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;FastAPI.FastAPI.executor&quot;: &quot;Run&quot;,
+    &quot;Python.comodos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/46290154850/Documents/calculadoraDeConsumoEletricoV2-main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="FastAPI" type="Python.FastAPI">
       <option name="file" value="C:\Users\46290154850\Documents\CalculadoraConsumoEletrico\main.py" />
@@ -114,7 +95,12 @@
       <option name="presentableId" value="Default" />
       <updated>1725445405707</updated>
       <workItem from="1725445998933" duration="6000" />
-      <workItem from="1725447798234" duration="7667000" />
+      <workItem from="1725447798234" duration="8130000" />
+      <workItem from="1725464857792" duration="235000" />
+      <workItem from="1725465559305" duration="4893000" />
+      <workItem from="1725619499204" duration="2052000" />
+      <workItem from="1725621819687" duration="121000" />
+      <workItem from="1725621966409" duration="4851000" />
     </task>
     <servers />
   </component>
@@ -123,6 +109,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CalculadoraConsumoEletrico$comodos.coverage" NAME="comodos Coverage Results" MODIFIED="1725447832545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/schemas" />
-    <SUITE FILE_PATH="coverage/CalculadoraConsumoEletrico$FastAPI.coverage" NAME="FastAPI Coverage Results" MODIFIED="1725455157051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/CalculadoraConsumoEletrico$FastAPI.coverage" NAME="FastAPI Coverage Results" MODIFIED="1725629596822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
